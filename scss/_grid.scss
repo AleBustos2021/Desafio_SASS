@@ -1,0 +1,27 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    max-width: 1200px;
+    min-height: 200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px 0;
+    gap: 1em;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    text-shadow:
+        0 0 1px white,
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+.link:hover {
+    animation-duration: 3s;
+    animation-name: grande;
+    animation-iteration-count: 1;
+}
