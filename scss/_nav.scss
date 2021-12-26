@@ -1,0 +1,44 @@
+@mixin navbar {
+    background-color: rgb(72, 178, 192);
+    margin: 0;
+    display: block;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+#menu_nav {
+    li {
+        @include navbar;
+        width: 20%;
+    }
+}
+
+#menu_nav a,
+#menu_foot a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#menu_nav li a:hover {
+    color: $tColor;
+}
+
+#menu_foot a:hover {
+    color: $tColor;
+}
+
+#menu_foot {
+    li {
+        @include navbar;
+        width: 33.33%;}
+
+    footer {
+        display: block;
+        position: relative;
+        bottom: -269px;
+    }
+}

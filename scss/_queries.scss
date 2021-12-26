@@ -1,0 +1,31 @@
+@media screen and (max-width:768px) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu_nav ul li {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 100%;
+    }
+
+    #menu_foot ul li {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .grilla {
+        display: flex;
+        flex-direction: column;
+    }
+}
